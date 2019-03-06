@@ -8,7 +8,6 @@ class Home extends Component {
 
     render() {
         let news = this.props.newsParam;
-        console.log(news)
         return (
             <div>
                 <div className="box box-primary" id="loading-example">
@@ -25,14 +24,14 @@ class Home extends Component {
                     <div className="box-body no-padding">
                         <div className="row">
                             <div className="col-sm-3"/>
-                            <div className="col-sm-7">
-                                {news.imageUrl.length > 0 && news.imageUrl !== "" &&
+                            <div className="col-sm-4">
+                                {news.imageUrl != null && news.imageUrl.length > 0 && news.imageUrl !== "" &&
                                 <div id="carousel-example-generic" className="carousel slide">
-                                    <img src={news.imageUrl} alt="`+this.title +`"
+                                    <img src={news.imageUrl}
                                          style={{display: 'block  ', marginLeft: 'auto', marginRight: 'auto'}}></img>
                                 </div>
                                 }
-                                {(!news.imageUrl.length > 0) &&
+                                {(news.imageUrl != null && !news.imageUrl.length > 0) &&
                                 <div className="box box-solid bg-light-blue">
                                     <div className="box-body">
                                         <p>
