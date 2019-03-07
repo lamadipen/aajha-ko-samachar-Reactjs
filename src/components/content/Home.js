@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
     render() {
         let news = this.props.newsParam;
@@ -27,7 +27,7 @@ class Home extends Component {
                             <div className="col-sm-4">
                                 {news.imageUrl != null && news.imageUrl.length > 0 && news.imageUrl !== "" &&
                                 <div id="carousel-example-generic" className="carousel slide">
-                                    <img src={news.imageUrl}
+                                    <img src={news.imageUrl} alt=""
                                          style={{display: 'block  ', marginLeft: 'auto', marginRight: 'auto'}}></img>
                                 </div>
                                 }

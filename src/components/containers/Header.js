@@ -9,9 +9,9 @@ const Header = () => {
                 <div className="navbar-left">
                     <ul className="nav navbar-nav">
                         <li className="notifications-menu">
-                            <a href="#" style={{color: 'white', background: '#303030'} }>
+                            <Link to="/home" style={{color: 'white', background: '#303030'} } className="logo" >
                                 Aajha ko Samachar
-                            </a>
+                            </Link>
                         </li>
                         <li className="notifications-menu">
                             <Link to="/home">

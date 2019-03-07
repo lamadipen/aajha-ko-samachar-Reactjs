@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Home from './components/content/Home';
-import {getAllNewsToday} from './InvokeApi';
+import {getAllNewsToday} from './client/InvokeApi';
 
 class App extends Component {
 

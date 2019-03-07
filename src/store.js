@@ -1,9 +1,10 @@
 // import rootSaga from './sagas';
 // import reducers from './reducers';
-import createSagaMiddleware from 'redux-saga';
+//import createSagaMiddleware from 'redux-saga';
 // import { createStore, compose, applyMiddleware } from 'redux';
- import { createStore } from 'redux';
+//import {Provider} from 'react-redux';
 
+import { createStore } from 'redux';
 
 
 function counter(state = 0, action) {
