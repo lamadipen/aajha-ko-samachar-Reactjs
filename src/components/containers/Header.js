@@ -28,6 +28,11 @@ const Header = () => {
                                 <span>Post</span>
                             </Link>
                         </li>
+                        <li className="notifications-menu">
+                            <Link to="blog">
+                                <span>Blog</span>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
