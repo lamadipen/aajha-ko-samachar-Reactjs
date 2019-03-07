@@ -17,15 +17,15 @@ function counter(state = 0, action) {
     }
 }
 
-let store = createStore(counter)
+const store = createStore(counter)
 
 store.subscribe(() => console.log(store.getState()))
 
-store.dispatch({ type: 'INCREMENT' })
+//store.dispatch({ type: 'INCREMENT' })
 // 1
-store.dispatch({ type: 'INCREMENT' })
+//store.dispatch({ type: 'INCREMENT' })
 // 2
-store.dispatch({ type: 'DECREMENT' })
+//store.dispatch({ type: 'DECREMENT' })
 
 
 /** Saga Middleware */
@@ -43,4 +43,6 @@ store.dispatch({ type: 'DECREMENT' })
 export default store;
 
 //https://medium.com/@shrsujan2007/implementation-of-redux-saga-in-react-applications-973f5a2a87d2
+//https://github.com/reduxjs/redux/blob/master/examples/counter-vanilla/index.html
+
 
