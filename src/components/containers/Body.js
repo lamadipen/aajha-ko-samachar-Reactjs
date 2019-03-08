@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = (props) => {
+const Body = (props) => {
     return (
         <div className="wrapper row-offcanvas row-offcanvas-left">
             <div className="col-xs-1"/>
@@ -18,4 +18,4 @@ const Footer = (props) => {
     )
 }
 
-export default Footer;
+export default Body;

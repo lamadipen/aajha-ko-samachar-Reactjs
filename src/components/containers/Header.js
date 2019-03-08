@@ -24,12 +24,12 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className="notifications-menu">
-                            <Link to="post">
+                            <Link to="/post">
                                 <span>Post</span>
                             </Link>
                         </li>
                         <li className="notifications-menu">
-                            <Link to="blog">
+                            <Link to="/blog">
                                 <span>Blog</span>
                             </Link>
                         </li>

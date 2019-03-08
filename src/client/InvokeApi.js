@@ -22,7 +22,7 @@ export const getAllNewsToday = () => {
         myRequest = new Request('http://localhost:3001/news');
     } else {
         let header = new Headers();
-        header.append("Authorization", "Basic " + btoa("android:~!@#$%^&*()_+"));
+        header.append("Authorization", "Basic " + btoa("android:password"));
 
         var myInit = {
             method: 'GET',

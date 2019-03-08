@@ -13,7 +13,7 @@ class Home extends Component {
                 <div className="box box-primary" id="loading-example">
 
                     <div className="box-header">
-
+                        <button onClick={() => {this.props.invokeMe("Hi From child")}}>Click Me</button>
                         <div className="pull-right box-tools">
                             {news.sourceNep}
                         </div>

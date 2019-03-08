@@ -8,13 +8,29 @@ class Blog extends  React.Component{
         this.props.fetchBlogPost();
 
         //const {id, title, author} = this.props.posts;
-        //console.log(id);
+        console.log(this.props.posts);
     }
 
     render() {
         return (
             <div>
-                {this.props.post == null ? "" :""}
+                {this.props.posts == null ? "" :
+                    this.props.posts.map( (post) => (
+                        <div key={post.id}>
+                            <label>
+                                {post.id}
+                            </label>
+                            <br/>
+                            <label>
+                                {post.title}
+                            </label>
+                            <br/>
+                            <label>
+                                {post.author}
+                            </label>
+                        </div>
+                    ))
+                }
             </div>
         );
     }
