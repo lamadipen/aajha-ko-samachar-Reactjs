@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 
 
 class Home extends Component {
-    // constructor(props) {
-    //     super(props);
-    // }
 
     render() {
         let news = this.props.newsParam;
@@ -70,13 +67,55 @@ class Home extends Component {
                                 </div>
                             </div>
                             <div className="col-xs-3 text-center">
-                                <div className="knob-label"><a href={news.pageUrl}>पूरा पढ्नुहोस् </a></div>
+                                <div className="knob-label" id="readMore"><a href={news.pageUrl}>पूरा पढ्नुहोस् </a></div>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>);
+    }
+
+    sum = () => {
+
+    }
+}
+
+Home.defaultProps = {
+    newsParam : {
+        "pageUrl": "https://hamrakura.com/news-details/57982/2019-03-07",
+        "title": "आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता",
+        "source": "hamrakura",
+        "sourceNep": "हाम्रा कुरा",
+        "publishedNepaliDate": {
+            "year": 2075,
+            "month": 11,
+            "day": 23,
+            "dayOfWeek": 5,
+            "nepaliString": "शुक्रवार, २३ फागुन, २०७५",
+            "dnYear": "२०७५",
+            "dnMonth": "फागुन",
+            "dnDay": "२३",
+            "dnDayOfWeek": "शुक्रवार"
+        },
+        "publishedDateBs": {
+            "dnYear": "२०७५",
+            "dnMonth": "फागुन",
+            "dnDay": "२३",
+            "dnDayOfWeek": "शुक्रवार",
+            "dnString": "शुक्रवार, २३ फागुन, २०७५",
+            "year": 2075,
+            "month": 11,
+            "day": 23,
+            "dayOfWeek": 5
+        },
+        "publishedDateAd": null,
+        "shortDescription": "२०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।",
+        "descriptionType": null,
+        "imageUrl": "https://hamrakura.com//uploads/news/images/ime-mbl.jpg",
+        "category": "ECONOMY",
+        "todaysNewsItem": false,
+        "language": "NEPALI"
     }
 }
 

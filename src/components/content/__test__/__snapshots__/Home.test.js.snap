@@ -1,0 +1,2247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeTest renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    newsParam={
+      Object {
+        "category": "ECONOMY",
+        "descriptionType": null,
+        "imageUrl": "https://hamrakura.com//uploads/news/images/ime-mbl.jpg",
+        "language": "NEPALI",
+        "pageUrl": "https://hamrakura.com/news-details/57982/2019-03-07",
+        "publishedDateAd": null,
+        "publishedDateBs": Object {
+          "day": 23,
+          "dayOfWeek": 5,
+          "dnDay": "२३",
+          "dnDayOfWeek": "शुक्रवार",
+          "dnMonth": "फागुन",
+          "dnString": "शुक्रवार, २३ फागुन, २०७५",
+          "dnYear": "२०७५",
+          "month": 11,
+          "year": 2075,
+        },
+        "publishedNepaliDate": Object {
+          "day": 23,
+          "dayOfWeek": 5,
+          "dnDay": "२३",
+          "dnDayOfWeek": "शुक्रवार",
+          "dnMonth": "फागुन",
+          "dnYear": "२०७५",
+          "month": 11,
+          "nepaliString": "शुक्रवार, २३ फागुन, २०७५",
+          "year": 2075,
+        },
+        "shortDescription": "२०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।",
+        "source": "hamrakura",
+        "sourceNep": "हाम्रा कुरा",
+        "title": "आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता",
+        "todaysNewsItem": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="box box-primary"
+        id="loading-example"
+      >
+        <div
+          className="box-header"
+        >
+          <button
+            onClick={[Function]}
+          >
+            Click Me
+          </button>
+          <div
+            className="pull-right box-tools"
+          >
+            हाम्रा कुरा
+          </div>
+          <i
+            className="fa fa-cloud"
+          />
+          <h1
+            className="box-title"
+          >
+            <strong>
+              आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+            </strong>
+          </h1>
+        </div>
+        <div
+          className="box-body no-padding"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3"
+            />
+            <div
+              className="col-sm-4"
+            >
+              <div
+                className="carousel slide"
+                id="carousel-example-generic"
+              >
+                <img
+                  alt=""
+                  src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                  style={
+                    Object {
+                      "display": "block  ",
+                      "marginLeft": "auto",
+                      "marginRight": "auto",
+                    }
+                  }
+                />
+              </div>
+              <div>
+                <dl>
+                  <dd>
+                    २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <div
+              className="col-sm-3"
+            />
+          </div>
+        </div>
+        <div
+          className="box-footer"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-3 text-center"
+              style={
+                Object {
+                  "borderRight": "1px solid #f4f4f4",
+                }
+              }
+            >
+              <div
+                className="knob-label"
+              >
+                शुक्रवार, २३ फागुन, २०७५
+              </div>
+            </div>
+            <div
+              className="col-xs-3 text-center"
+              style={
+                Object {
+                  "borderRight": "1px solid #f4f4f4",
+                }
+              }
+            >
+              <div
+                className="knob-label"
+              >
+                ECONOMY
+              </div>
+            </div>
+            <div
+              className="col-xs-3 text-center"
+              style={
+                Object {
+                  "borderRight": "1px solid #f4f4f4",
+                }
+              }
+            >
+              <div
+                className="knob-label"
+              >
+                <button
+                  className="btn bg-blue btn-circle"
+                >
+                  <i
+                    className="fa fa-facebook"
+                  />
+                </button>
+                <button
+                  className="btn bg-red btn-circle"
+                >
+                  <i
+                    className="fa fa-google-plus"
+                  />
+                </button>
+                <button
+                  className="btn bg-aqua btn-circle"
+                >
+                  <i
+                    className="fa fa-twitter"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              className="col-xs-3 text-center"
+            >
+              <div
+                className="knob-label"
+                id="readMore"
+              >
+                <a
+                  href="https://hamrakura.com/news-details/57982/2019-03-07"
+                >
+                  पूरा पढ्नुहोस् 
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="box-header"
+          >
+            <button
+              onClick={[Function]}
+            >
+              Click Me
+            </button>
+            <div
+              className="pull-right box-tools"
+            >
+              हाम्रा कुरा
+            </div>
+            <i
+              className="fa fa-cloud"
+            />
+            <h1
+              className="box-title"
+            >
+              <strong>
+                आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+              </strong>
+            </h1>
+          </div>,
+          <div
+            className="box-body no-padding"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm-3"
+              />
+              <div
+                className="col-sm-4"
+              >
+                <div
+                  className="carousel slide"
+                  id="carousel-example-generic"
+                >
+                  <img
+                    alt=""
+                    src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                    style={
+                      Object {
+                        "display": "block  ",
+                        "marginLeft": "auto",
+                        "marginRight": "auto",
+                      }
+                    }
+                  />
+                </div>
+                <div>
+                  <dl>
+                    <dd>
+                      २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+              <div
+                className="col-sm-3"
+              />
+            </div>
+          </div>,
+          <div
+            className="box-footer"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  शुक्रवार, २३ फागुन, २०७५
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  ECONOMY
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  <button
+                    className="btn bg-blue btn-circle"
+                  >
+                    <i
+                      className="fa fa-facebook"
+                    />
+                  </button>
+                  <button
+                    className="btn bg-red btn-circle"
+                  >
+                    <i
+                      className="fa fa-google-plus"
+                    />
+                  </button>
+                  <button
+                    className="btn bg-aqua btn-circle"
+                  >
+                    <i
+                      className="fa fa-twitter"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+              >
+                <div
+                  className="knob-label"
+                  id="readMore"
+                >
+                  <a
+                    href="https://hamrakura.com/news-details/57982/2019-03-07"
+                  >
+                    पूरा पढ्नुहोस् 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "box box-primary",
+        "id": "loading-example",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                onClick={[Function]}
+              >
+                Click Me
+              </button>,
+              <div
+                className="pull-right box-tools"
+              >
+                हाम्रा कुरा
+              </div>,
+              <i
+                className="fa fa-cloud"
+              />,
+              <h1
+                className="box-title"
+              >
+                <strong>
+                  आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+                </strong>
+              </h1>,
+            ],
+            "className": "box-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Click Me",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Click Me",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "हाम्रा कुरा",
+                "className": "pull-right box-tools",
+              },
+              "ref": null,
+              "rendered": "हाम्रा कुरा",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-cloud",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <strong>
+                  आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+                </strong>,
+                "className": "box-title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता",
+                },
+                "ref": null,
+                "rendered": "आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता",
+                "type": "strong",
+              },
+              "type": "h1",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="col-sm-3"
+              />
+              <div
+                className="col-sm-4"
+              >
+                <div
+                  className="carousel slide"
+                  id="carousel-example-generic"
+                >
+                  <img
+                    alt=""
+                    src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                    style={
+                      Object {
+                        "display": "block  ",
+                        "marginLeft": "auto",
+                        "marginRight": "auto",
+                      }
+                    }
+                  />
+                </div>
+                <div>
+                  <dl>
+                    <dd>
+                      २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+              <div
+                className="col-sm-3"
+              />
+            </div>,
+            "className": "box-body no-padding",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-sm-3"
+                />,
+                <div
+                  className="col-sm-4"
+                >
+                  <div
+                    className="carousel slide"
+                    id="carousel-example-generic"
+                  >
+                    <img
+                      alt=""
+                      src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                      style={
+                        Object {
+                          "display": "block  ",
+                          "marginLeft": "auto",
+                          "marginRight": "auto",
+                        }
+                      }
+                    />
+                  </div>
+                  <div>
+                    <dl>
+                      <dd>
+                        २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                      </dd>
+                    </dl>
+                  </div>
+                </div>,
+                <div
+                  className="col-sm-3"
+                />,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "col-sm-3",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="carousel slide"
+                      id="carousel-example-generic"
+                    >
+                      <img
+                        alt=""
+                        src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                        style={
+                          Object {
+                            "display": "block  ",
+                            "marginLeft": "auto",
+                            "marginRight": "auto",
+                          }
+                        }
+                      />
+                    </div>,
+                    false,
+                    <div>
+                      <dl>
+                        <dd>
+                          २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                        </dd>
+                      </dl>
+                    </div>,
+                  ],
+                  "className": "col-sm-4",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt=""
+                        src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                        style={
+                          Object {
+                            "display": "block  ",
+                            "marginLeft": "auto",
+                            "marginRight": "auto",
+                          }
+                        }
+                      />,
+                      "className": "carousel slide",
+                      "id": "carousel-example-generic",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "",
+                        "src": "https://hamrakura.com//uploads/news/images/ime-mbl.jpg",
+                        "style": Object {
+                          "display": "block  ",
+                          "marginLeft": "auto",
+                          "marginRight": "auto",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  false,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <dl>
+                        <dd>
+                          २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                        </dd>
+                      </dl>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <dd>
+                          २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                        </dd>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "२०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।",
+                        },
+                        "ref": null,
+                        "rendered": "२०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।",
+                        "type": "dd",
+                      },
+                      "type": "dl",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "col-sm-3",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  शुक्रवार, २३ फागुन, २०७५
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  ECONOMY
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  <button
+                    className="btn bg-blue btn-circle"
+                  >
+                    <i
+                      className="fa fa-facebook"
+                    />
+                  </button>
+                  <button
+                    className="btn bg-red btn-circle"
+                  >
+                    <i
+                      className="fa fa-google-plus"
+                    />
+                  </button>
+                  <button
+                    className="btn bg-aqua btn-circle"
+                  >
+                    <i
+                      className="fa fa-twitter"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+              >
+                <div
+                  className="knob-label"
+                  id="readMore"
+                >
+                  <a
+                    href="https://hamrakura.com/news-details/57982/2019-03-07"
+                  >
+                    पूरा पढ्नुहोस् 
+                  </a>
+                </div>
+              </div>
+            </div>,
+            "className": "box-footer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    शुक्रवार, २३ फागुन, २०७५
+                  </div>
+                </div>,
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    ECONOMY
+                  </div>
+                </div>,
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    <button
+                      className="btn bg-blue btn-circle"
+                    >
+                      <i
+                        className="fa fa-facebook"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-red btn-circle"
+                    >
+                      <i
+                        className="fa fa-google-plus"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-aqua btn-circle"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </button>
+                  </div>
+                </div>,
+                <div
+                  className="col-xs-3 text-center"
+                >
+                  <div
+                    className="knob-label"
+                    id="readMore"
+                  >
+                    <a
+                      href="https://hamrakura.com/news-details/57982/2019-03-07"
+                    >
+                      पूरा पढ्नुहोस् 
+                    </a>
+                  </div>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="knob-label"
+                  >
+                    शुक्रवार, २३ फागुन, २०७५
+                  </div>,
+                  "className": "col-xs-3 text-center",
+                  "style": Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "शुक्रवार, २३ फागुन, २०७५",
+                    "className": "knob-label",
+                  },
+                  "ref": null,
+                  "rendered": "शुक्रवार, २३ फागुन, २०७५",
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="knob-label"
+                  >
+                    ECONOMY
+                  </div>,
+                  "className": "col-xs-3 text-center",
+                  "style": Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ECONOMY",
+                    "className": "knob-label",
+                  },
+                  "ref": null,
+                  "rendered": "ECONOMY",
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="knob-label"
+                  >
+                    <button
+                      className="btn bg-blue btn-circle"
+                    >
+                      <i
+                        className="fa fa-facebook"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-red btn-circle"
+                    >
+                      <i
+                        className="fa fa-google-plus"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-aqua btn-circle"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </button>
+                  </div>,
+                  "className": "col-xs-3 text-center",
+                  "style": Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <button
+                        className="btn bg-blue btn-circle"
+                      >
+                        <i
+                          className="fa fa-facebook"
+                        />
+                      </button>,
+                      <button
+                        className="btn bg-red btn-circle"
+                      >
+                        <i
+                          className="fa fa-google-plus"
+                        />
+                      </button>,
+                      <button
+                        className="btn bg-aqua btn-circle"
+                      >
+                        <i
+                          className="fa fa-twitter"
+                        />
+                      </button>,
+                    ],
+                    "className": "knob-label",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-facebook"
+                        />,
+                        "className": "btn bg-blue btn-circle",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-facebook",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "button",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-google-plus"
+                        />,
+                        "className": "btn bg-red btn-circle",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-google-plus",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "button",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <i
+                          className="fa fa-twitter"
+                        />,
+                        "className": "btn bg-aqua btn-circle",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fa fa-twitter",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": "button",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="knob-label"
+                    id="readMore"
+                  >
+                    <a
+                      href="https://hamrakura.com/news-details/57982/2019-03-07"
+                    >
+                      पूरा पढ्नुहोस् 
+                    </a>
+                  </div>,
+                  "className": "col-xs-3 text-center",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="https://hamrakura.com/news-details/57982/2019-03-07"
+                    >
+                      पूरा पढ्नुहोस् 
+                    </a>,
+                    "className": "knob-label",
+                    "id": "readMore",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "पूरा पढ्नुहोस् ",
+                      "href": "https://hamrakura.com/news-details/57982/2019-03-07",
+                    },
+                    "ref": null,
+                    "rendered": "पूरा पढ्नुहोस् ",
+                    "type": "a",
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="box box-primary"
+          id="loading-example"
+        >
+          <div
+            className="box-header"
+          >
+            <button
+              onClick={[Function]}
+            >
+              Click Me
+            </button>
+            <div
+              className="pull-right box-tools"
+            >
+              हाम्रा कुरा
+            </div>
+            <i
+              className="fa fa-cloud"
+            />
+            <h1
+              className="box-title"
+            >
+              <strong>
+                आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+              </strong>
+            </h1>
+          </div>
+          <div
+            className="box-body no-padding"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm-3"
+              />
+              <div
+                className="col-sm-4"
+              >
+                <div
+                  className="carousel slide"
+                  id="carousel-example-generic"
+                >
+                  <img
+                    alt=""
+                    src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                    style={
+                      Object {
+                        "display": "block  ",
+                        "marginLeft": "auto",
+                        "marginRight": "auto",
+                      }
+                    }
+                  />
+                </div>
+                <div>
+                  <dl>
+                    <dd>
+                      २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+              <div
+                className="col-sm-3"
+              />
+            </div>
+          </div>
+          <div
+            className="box-footer"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  शुक्रवार, २३ फागुन, २०७५
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  ECONOMY
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+                style={
+                  Object {
+                    "borderRight": "1px solid #f4f4f4",
+                  }
+                }
+              >
+                <div
+                  className="knob-label"
+                >
+                  <button
+                    className="btn bg-blue btn-circle"
+                  >
+                    <i
+                      className="fa fa-facebook"
+                    />
+                  </button>
+                  <button
+                    className="btn bg-red btn-circle"
+                  >
+                    <i
+                      className="fa fa-google-plus"
+                    />
+                  </button>
+                  <button
+                    className="btn bg-aqua btn-circle"
+                  >
+                    <i
+                      className="fa fa-twitter"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                className="col-xs-3 text-center"
+              >
+                <div
+                  className="knob-label"
+                  id="readMore"
+                >
+                  <a
+                    href="https://hamrakura.com/news-details/57982/2019-03-07"
+                  >
+                    पूरा पढ्नुहोस् 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="box-header"
+            >
+              <button
+                onClick={[Function]}
+              >
+                Click Me
+              </button>
+              <div
+                className="pull-right box-tools"
+              >
+                हाम्रा कुरा
+              </div>
+              <i
+                className="fa fa-cloud"
+              />
+              <h1
+                className="box-title"
+              >
+                <strong>
+                  आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+                </strong>
+              </h1>
+            </div>,
+            <div
+              className="box-body no-padding"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-sm-3"
+                />
+                <div
+                  className="col-sm-4"
+                >
+                  <div
+                    className="carousel slide"
+                    id="carousel-example-generic"
+                  >
+                    <img
+                      alt=""
+                      src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                      style={
+                        Object {
+                          "display": "block  ",
+                          "marginLeft": "auto",
+                          "marginRight": "auto",
+                        }
+                      }
+                    />
+                  </div>
+                  <div>
+                    <dl>
+                      <dd>
+                        २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div
+                  className="col-sm-3"
+                />
+              </div>
+            </div>,
+            <div
+              className="box-footer"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    शुक्रवार, २३ फागुन, २०७५
+                  </div>
+                </div>
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    ECONOMY
+                  </div>
+                </div>
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    <button
+                      className="btn bg-blue btn-circle"
+                    >
+                      <i
+                        className="fa fa-facebook"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-red btn-circle"
+                    >
+                      <i
+                        className="fa fa-google-plus"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-aqua btn-circle"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div
+                  className="col-xs-3 text-center"
+                >
+                  <div
+                    className="knob-label"
+                    id="readMore"
+                  >
+                    <a
+                      href="https://hamrakura.com/news-details/57982/2019-03-07"
+                    >
+                      पूरा पढ्नुहोस् 
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "box box-primary",
+          "id": "loading-example",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  onClick={[Function]}
+                >
+                  Click Me
+                </button>,
+                <div
+                  className="pull-right box-tools"
+                >
+                  हाम्रा कुरा
+                </div>,
+                <i
+                  className="fa fa-cloud"
+                />,
+                <h1
+                  className="box-title"
+                >
+                  <strong>
+                    आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+                  </strong>
+                </h1>,
+              ],
+              "className": "box-header",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Click Me",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Click Me",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "हाम्रा कुरा",
+                  "className": "pull-right box-tools",
+                },
+                "ref": null,
+                "rendered": "हाम्रा कुरा",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-cloud",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <strong>
+                    आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता
+                  </strong>,
+                  "className": "box-title",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता",
+                  },
+                  "ref": null,
+                  "rendered": "आइएमई लाइफ इन्स्योरेन्स र माछापुच्छ्रे बैंक लिमिटेडबीच बैंक अस्योरेन्स सम्झौता",
+                  "type": "strong",
+                },
+                "type": "h1",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="row"
+              >
+                <div
+                  className="col-sm-3"
+                />
+                <div
+                  className="col-sm-4"
+                >
+                  <div
+                    className="carousel slide"
+                    id="carousel-example-generic"
+                  >
+                    <img
+                      alt=""
+                      src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                      style={
+                        Object {
+                          "display": "block  ",
+                          "marginLeft": "auto",
+                          "marginRight": "auto",
+                        }
+                      }
+                    />
+                  </div>
+                  <div>
+                    <dl>
+                      <dd>
+                        २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div
+                  className="col-sm-3"
+                />
+              </div>,
+              "className": "box-body no-padding",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-sm-3"
+                  />,
+                  <div
+                    className="col-sm-4"
+                  >
+                    <div
+                      className="carousel slide"
+                      id="carousel-example-generic"
+                    >
+                      <img
+                        alt=""
+                        src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                        style={
+                          Object {
+                            "display": "block  ",
+                            "marginLeft": "auto",
+                            "marginRight": "auto",
+                          }
+                        }
+                      />
+                    </div>
+                    <div>
+                      <dl>
+                        <dd>
+                          २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>,
+                  <div
+                    className="col-sm-3"
+                  />,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "col-sm-3",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="carousel slide"
+                        id="carousel-example-generic"
+                      >
+                        <img
+                          alt=""
+                          src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                          style={
+                            Object {
+                              "display": "block  ",
+                              "marginLeft": "auto",
+                              "marginRight": "auto",
+                            }
+                          }
+                        />
+                      </div>,
+                      false,
+                      <div>
+                        <dl>
+                          <dd>
+                            २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                          </dd>
+                        </dl>
+                      </div>,
+                    ],
+                    "className": "col-sm-4",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <img
+                          alt=""
+                          src="https://hamrakura.com//uploads/news/images/ime-mbl.jpg"
+                          style={
+                            Object {
+                              "display": "block  ",
+                              "marginLeft": "auto",
+                              "marginRight": "auto",
+                            }
+                          }
+                        />,
+                        "className": "carousel slide",
+                        "id": "carousel-example-generic",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "",
+                          "src": "https://hamrakura.com//uploads/news/images/ime-mbl.jpg",
+                          "style": Object {
+                            "display": "block  ",
+                            "marginLeft": "auto",
+                            "marginRight": "auto",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      "type": "div",
+                    },
+                    false,
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <dl>
+                          <dd>
+                            २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                          </dd>
+                        </dl>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <dd>
+                            २०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।
+                          </dd>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "२०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।",
+                          },
+                          "ref": null,
+                          "rendered": "२०७५ फाल्गुण २३ बिहिबार, काठमाडौं। आइएमई लाइफ इन्स्योरेन्स कम्पनी लिमिटेड र माछापुच्छ्रे बैंक लिमिटेड काठमाडौँबीच बैंक अस्योरेन्स सम्झौता भएको छ। उक्त बैंक अस्योरेन्स सम्झौतामा इन्स्योरेन्स कम्पनीकातर्फबाट सहायक महा प्रबन्धक आशिष सिंह र माछापुच्छ्रे बैंक लिमिटेडका तर्फबाट उप–प्रमुख कार्यकारी अधिकृत सन्तोष कोइरालाले हस्ताक्षर गरेका छन्।",
+                          "type": "dd",
+                        },
+                        "type": "dl",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "col-sm-3",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="row"
+              >
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    शुक्रवार, २३ फागुन, २०७५
+                  </div>
+                </div>
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    ECONOMY
+                  </div>
+                </div>
+                <div
+                  className="col-xs-3 text-center"
+                  style={
+                    Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    }
+                  }
+                >
+                  <div
+                    className="knob-label"
+                  >
+                    <button
+                      className="btn bg-blue btn-circle"
+                    >
+                      <i
+                        className="fa fa-facebook"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-red btn-circle"
+                    >
+                      <i
+                        className="fa fa-google-plus"
+                      />
+                    </button>
+                    <button
+                      className="btn bg-aqua btn-circle"
+                    >
+                      <i
+                        className="fa fa-twitter"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div
+                  className="col-xs-3 text-center"
+                >
+                  <div
+                    className="knob-label"
+                    id="readMore"
+                  >
+                    <a
+                      href="https://hamrakura.com/news-details/57982/2019-03-07"
+                    >
+                      पूरा पढ्नुहोस् 
+                    </a>
+                  </div>
+                </div>
+              </div>,
+              "className": "box-footer",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-3 text-center"
+                    style={
+                      Object {
+                        "borderRight": "1px solid #f4f4f4",
+                      }
+                    }
+                  >
+                    <div
+                      className="knob-label"
+                    >
+                      शुक्रवार, २३ फागुन, २०७५
+                    </div>
+                  </div>,
+                  <div
+                    className="col-xs-3 text-center"
+                    style={
+                      Object {
+                        "borderRight": "1px solid #f4f4f4",
+                      }
+                    }
+                  >
+                    <div
+                      className="knob-label"
+                    >
+                      ECONOMY
+                    </div>
+                  </div>,
+                  <div
+                    className="col-xs-3 text-center"
+                    style={
+                      Object {
+                        "borderRight": "1px solid #f4f4f4",
+                      }
+                    }
+                  >
+                    <div
+                      className="knob-label"
+                    >
+                      <button
+                        className="btn bg-blue btn-circle"
+                      >
+                        <i
+                          className="fa fa-facebook"
+                        />
+                      </button>
+                      <button
+                        className="btn bg-red btn-circle"
+                      >
+                        <i
+                          className="fa fa-google-plus"
+                        />
+                      </button>
+                      <button
+                        className="btn bg-aqua btn-circle"
+                      >
+                        <i
+                          className="fa fa-twitter"
+                        />
+                      </button>
+                    </div>
+                  </div>,
+                  <div
+                    className="col-xs-3 text-center"
+                  >
+                    <div
+                      className="knob-label"
+                      id="readMore"
+                    >
+                      <a
+                        href="https://hamrakura.com/news-details/57982/2019-03-07"
+                      >
+                        पूरा पढ्नुहोस् 
+                      </a>
+                    </div>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="knob-label"
+                    >
+                      शुक्रवार, २३ फागुन, २०७५
+                    </div>,
+                    "className": "col-xs-3 text-center",
+                    "style": Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "शुक्रवार, २३ फागुन, २०७५",
+                      "className": "knob-label",
+                    },
+                    "ref": null,
+                    "rendered": "शुक्रवार, २३ फागुन, २०७५",
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="knob-label"
+                    >
+                      ECONOMY
+                    </div>,
+                    "className": "col-xs-3 text-center",
+                    "style": Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ECONOMY",
+                      "className": "knob-label",
+                    },
+                    "ref": null,
+                    "rendered": "ECONOMY",
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="knob-label"
+                    >
+                      <button
+                        className="btn bg-blue btn-circle"
+                      >
+                        <i
+                          className="fa fa-facebook"
+                        />
+                      </button>
+                      <button
+                        className="btn bg-red btn-circle"
+                      >
+                        <i
+                          className="fa fa-google-plus"
+                        />
+                      </button>
+                      <button
+                        className="btn bg-aqua btn-circle"
+                      >
+                        <i
+                          className="fa fa-twitter"
+                        />
+                      </button>
+                    </div>,
+                    "className": "col-xs-3 text-center",
+                    "style": Object {
+                      "borderRight": "1px solid #f4f4f4",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <button
+                          className="btn bg-blue btn-circle"
+                        >
+                          <i
+                            className="fa fa-facebook"
+                          />
+                        </button>,
+                        <button
+                          className="btn bg-red btn-circle"
+                        >
+                          <i
+                            className="fa fa-google-plus"
+                          />
+                        </button>,
+                        <button
+                          className="btn bg-aqua btn-circle"
+                        >
+                          <i
+                            className="fa fa-twitter"
+                          />
+                        </button>,
+                      ],
+                      "className": "knob-label",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            className="fa fa-facebook"
+                          />,
+                          "className": "btn bg-blue btn-circle",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-facebook",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "button",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            className="fa fa-google-plus"
+                          />,
+                          "className": "btn bg-red btn-circle",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-google-plus",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "button",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            className="fa fa-twitter"
+                          />,
+                          "className": "btn bg-aqua btn-circle",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-twitter",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "button",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="knob-label"
+                      id="readMore"
+                    >
+                      <a
+                        href="https://hamrakura.com/news-details/57982/2019-03-07"
+                      >
+                        पूरा पढ्नुहोस् 
+                      </a>
+                    </div>,
+                    "className": "col-xs-3 text-center",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="https://hamrakura.com/news-details/57982/2019-03-07"
+                      >
+                        पूरा पढ्नुहोस् 
+                      </a>,
+                      "className": "knob-label",
+                      "id": "readMore",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "पूरा पढ्नुहोस् ",
+                        "href": "https://hamrakura.com/news-details/57982/2019-03-07",
+                      },
+                      "ref": null,
+                      "rendered": "पूरा पढ्नुहोस् ",
+                      "type": "a",
+                    },
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

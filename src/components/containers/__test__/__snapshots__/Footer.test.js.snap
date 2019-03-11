@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterTest render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <footer
+        className="main-footer"
+      >
+        <div
+          className="pull-right"
+        >
+          <b>
+            Version
+          </b>
+           2.4.0
+        </div>
+        <strong>
+          Copyright © 2014-2019 
+          <a
+            href="https://adminlte.io"
+          >
+            Dipen Lama
+          </a>
+          .
+        </strong>
+         All rights reserved.
+      </footer>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="pull-right"
+          >
+            <b>
+              Version
+            </b>
+             2.4.0
+          </div>,
+          <strong>
+            Copyright © 2014-2019 
+            <a
+              href="https://adminlte.io"
+            >
+              Dipen Lama
+            </a>
+            .
+          </strong>,
+          " All rights reserved.",
+        ],
+        "className": "main-footer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <b>
+                Version
+              </b>,
+              " 2.4.0",
+            ],
+            "className": "pull-right",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Version",
+              },
+              "ref": null,
+              "rendered": "Version",
+              "type": "b",
+            },
+            " 2.4.0",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Copyright © 2014-2019 ",
+              <a
+                href="https://adminlte.io"
+              >
+                Dipen Lama
+              </a>,
+              ".",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Copyright © 2014-2019 ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dipen Lama",
+                "href": "https://adminlte.io",
+              },
+              "ref": null,
+              "rendered": "Dipen Lama",
+              "type": "a",
+            },
+            ".",
+          ],
+          "type": "strong",
+        },
+        " All rights reserved.",
+      ],
+      "type": "footer",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <footer
+          className="main-footer"
+        >
+          <div
+            className="pull-right"
+          >
+            <b>
+              Version
+            </b>
+             2.4.0
+          </div>
+          <strong>
+            Copyright © 2014-2019 
+            <a
+              href="https://adminlte.io"
+            >
+              Dipen Lama
+            </a>
+            .
+          </strong>
+           All rights reserved.
+        </footer>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="pull-right"
+            >
+              <b>
+                Version
+              </b>
+               2.4.0
+            </div>,
+            <strong>
+              Copyright © 2014-2019 
+              <a
+                href="https://adminlte.io"
+              >
+                Dipen Lama
+              </a>
+              .
+            </strong>,
+            " All rights reserved.",
+          ],
+          "className": "main-footer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Version
+                </b>,
+                " 2.4.0",
+              ],
+              "className": "pull-right",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Version",
+                },
+                "ref": null,
+                "rendered": "Version",
+                "type": "b",
+              },
+              " 2.4.0",
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Copyright © 2014-2019 ",
+                <a
+                  href="https://adminlte.io"
+                >
+                  Dipen Lama
+                </a>,
+                ".",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Copyright © 2014-2019 ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Dipen Lama",
+                  "href": "https://adminlte.io",
+                },
+                "ref": null,
+                "rendered": "Dipen Lama",
+                "type": "a",
+              },
+              ".",
+            ],
+            "type": "strong",
+          },
+          " All rights reserved.",
+        ],
+        "type": "footer",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
